@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("请输入日期：");
+		System.out.println("请输入日期：(YYYY-mm-DD)");
 		Scanner sc = new Scanner(System.in);
 		String s = sc.nextLine();
 
